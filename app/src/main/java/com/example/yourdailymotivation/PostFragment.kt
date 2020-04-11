@@ -30,7 +30,7 @@ class PostFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_post, container, false)
         val postTitle: TextView = view.findViewById(R.id.postTitle)
         val imageView: ImageView = view.findViewById(R.id.postImage)
-        val imageDownloader = ImageDownloader(postUrl).setImage(imageView)
+        val imageDownloader = ImageDownloader(postUrl, activity!!).setImage(imageView)
         postTitle.text = postUrl
         // Inflate the layout for this fragment
         return view

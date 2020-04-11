@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Message
 import android.util.Log
+import android.view.Display
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.ScrollView

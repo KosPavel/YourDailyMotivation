@@ -1,6 +1,7 @@
 package com.example.yourdailymotivation
 
 import android.app.Activity
+import android.content.Context
 import android.os.AsyncTask
 import android.util.Log
 import android.widget.LinearLayout
